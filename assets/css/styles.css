@@ -1,31 +1,35 @@
 * {
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    padding: 0;
 }
 
 body {
-    position: absolute;
-    width: 100%;
+    width: 1440px;
     height: 3625px;
+    margin: 0 auto;
 }
 
 #nav-bar {
     position: fixed;
-    width: 100%;
+    width: 1440px;
     height: 50px;
     background-color: #575757;
     opacity: 70%;
     font-size: 16px;
     color: #FFF;
     z-index: 5;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
 }
 
 #logo-top {
     position: absolute;
-    width: 36px;
-    height: 19px;
+    width: 200px;
+    height: 50px;
     left: 67px;
-    top: 16px;
+    top: 0px;
+    opacity: 50%;
 }
 
 .nav:hover {
@@ -33,19 +37,28 @@ body {
     transition: 0.3s;
 }
 
-#bar-top {
+#bar-top-home {
     position: absolute;
     width: 44px;
     height: 4px;
-    background-color: #FF0000;
-    left: 543px;
+    background-color: #2E7EFF;
+    left: 564px;
     top: 35px;
+}
+
+#bar-top-cart {
+    position: absolute;
+    width: 24px;
+    height: 4px;
+    background-color: #2E7EFF;
+    left: 1316px;
+    top: 37px;
 }
 
 #home {
     position: absolute;
-    left: 543px;
-    top: 16px;
+    left: 564px;
+    top: 18px;
 }
 
 #home:hover {
@@ -54,8 +67,8 @@ body {
 
 #popular-products {
     position: absolute;
-    left: 637px;
-    top: 16px;
+    left: 658px;
+    top: 19px;
 }
 
 #popular-products:hover {
@@ -64,8 +77,8 @@ body {
 
 #black-friday {
     position: absolute;
-    left: 811px;
-    top: 16px;
+    left: 832px;
+    top: 19px;
 }
 
 #black-friday:hover {
@@ -86,23 +99,21 @@ body {
 
 header {
     position: absolute;
-    width: 100%;
+    width: 1440px;
     height: 850px;
-    left: 0px;
     top: 0px;
     z-index: 0;
 }
 
 #banner-container {
-    width: 100%;
+    width: 1440px;
     height: 850px;
 }
 
 #popular-container {
     position: absolute;
-    width: 100%;
+    width: 1440px;
     height: 725px;
-    left: 0px;
     top: 900px;
     font-size: 18px;
 }
@@ -115,7 +126,7 @@ header {
 
 .card-container-popular {
     position: absolute;
-    width: 90%;
+    width: 1320px;
     height: 600px;
     left: 60px;
     top: 125px;
@@ -133,122 +144,20 @@ header {
     left: 0px;
 }
 
-#pegasus img {
-    position: absolute;
-    width: 400px;
-    height: 400px;
-    left: 10px;
-    top: 10px;
-}
-
-#pegasus h3 {
-    position: absolute;
-    left: 10px;
-    top: 408px;
-    font-size: 24px;
-}
-
-#pegasus-class {
-    position: absolute;
-    left: 10px;
-    top: 465px;
-    opacity: 50%;
-}
-
-#pegasus-price {
-    position: absolute;
-    left: 10px;
-    top: 527px;
-}
-
 #nmd1 {
     position: absolute;
-    left: 477px;
-}
-
-#nmd1 img {
-    position: absolute;
-    width: 400px;
-    height: 400px;
-    left: 10px;
-    top: 10px;
-    object-fit: contain;
-}
-
-#nmd1 h3 {
-    position: absolute;
-    left: 10px;
-    top: 408px;
-    font-size: 24px;
-}
-
-#nmd1-discount {
-    position: absolute;
-    left: 367px;
-    top: 10px;
-    color: #FF0000;
-}
-
-#nmd1-class {
-    position: absolute;
-    left: 10px;
-    top: 465px;
-    opacity: 50%;
-}
-
-#nmd1-price-low {
-    position: absolute;
-    left: 10px;
-    top: 527px;
-    color: #FF0000;
-}
-
-#nmd1-price-high {
-    position: absolute;
-    left: 105px;
-    top: 527px;
-    text-decoration: line-through 1.5px solid;
-    opacity: 50%;
+    left: 450px;
 }
 
 #jordan {
     position: absolute;
-    left: 947px;
-}
-
-#jordan img {
-    position: absolute;
-    width: 400px;
-    height: 400px;
-    left: 10px;
-    top: 10px;
-}
-
-#jordan h3 {
-    position: absolute;
-    left: 10px;
-    top: 408px;
-    font-size: 24px;
-}
-
-#jordan-class {
-    position: absolute;
-    left: 10px;
-    top: 465px;
-    opacity: 50%;
-}
-
-#jordan-price {
-    position: absolute;
-    left: 10px;
-    top: 527px;
+    left: 900px;
 }
 
 #black-container {
     position: absolute;
-    width: 100%;
+    width: 1440px;
     height: 1375px;
-    left: 0px;
     top: 1625px;
 }
 
@@ -260,7 +169,7 @@ header {
 
 .card-container-black {
     position: absolute;
-    width: 90%;
+    width: 1320px;
     height: 1250px;
     left: 60px;
     top: 125px;
@@ -271,150 +180,14 @@ header {
     left: 0px;
 }
 
-#nmd2 img {
-    position: absolute;
-    width: 400px;
-    height: 400px;
-    left: 10px;
-    top: 10px;
-    object-fit: contain;
-}
-
-#nmd2 h3 {
-    position: absolute;
-    left: 10px;
-    top: 408px;
-    font-size: 24px;
-}
-
-#nmd2-discount {
-    position: absolute;
-    left: 367px;
-    top: 10px;
-    color: #FF0000;
-}
-
-#nmd2-class {
-    position: absolute;
-    left: 10px;
-    top: 465px;
-    opacity: 50%;
-}
-
-#nmd2-price-low {
-    position: absolute;
-    left: 10px;
-    top: 527px;
-    color: #FF0000;
-}
-
-#nmd2-price-high {
-    position: absolute;
-    left: 105px;
-    top: 527px;
-    text-decoration: line-through 1.5px solid;
-    opacity: 50%;
-}
-
 #revolution {
     position: absolute;
-    left: 477px;
-}
-
-#revolution img {
-    position: absolute;
-    width: 400px;
-    height: 400px;
-    left: 10px;
-    top: 10px;
-    object-fit: contain;
-}
-
-#revolution h3 {
-    position: absolute;
-    left: 10px;
-    top: 408px;
-    font-size: 24px;
-}
-
-#revolution-discount {
-    position: absolute;
-    left: 367px;
-    top: 10px;
-    color: #FF0000;
-    z-index: 1;
-}
-
-#revolution-class {
-    position: absolute;
-    left: 10px;
-    top: 465px;
-    opacity: 50%;
-}
-
-#revolution-price-low {
-    position: absolute;
-    left: 10px;
-    top: 527px;
-    color: #FF0000;
-}
-
-#revolution-price-high {
-    position: absolute;
-    left: 105px;
-    top: 527px;
-    text-decoration: line-through 1.5px solid;
-    opacity: 50%;
+    left: 450px;
 }
 
 #energy {
     position: absolute;
-    left: 947px;
-}
-
-#energy img {
-    position: absolute;
-    width: 400px;
-    height: 400px;
-    left: 10px;
-    top: 10px;
-}
-
-#energy h3 {
-    position: absolute;
-    left: 10px;
-    top: 408px;
-    font-size: 24px;
-}
-
-#energy-discount {
-    position: absolute;
-    left: 367px;
-    top: 10px;
-    color: #FF0000;
-    z-index: 1;
-}
-
-#energy-class {
-    position: absolute;
-    left: 10px;
-    top: 465px;
-    opacity: 50%;
-}
-
-#energy-price-low {
-    position: absolute;
-    left: 10px;
-    top: 527px;
-    color: #FF0000;
-}
-
-#energy-price-high {
-    position: absolute;
-    left: 105px;
-    top: 527px;
-    text-decoration: line-through 1.5px solid;
-    opacity: 50%;
+    left: 900px;
 }
 
 #ultimashow {
@@ -423,7 +196,31 @@ header {
     top: 650px;
 }
 
-#ultimashow img {
+#flyer {
+    position: absolute;
+    width: 420px;
+    height: 600px;
+    left: 450px;
+    top: 650px;
+}
+
+#vtrack {
+    position: absolute;
+    width: 420px;
+    height: 600px;
+    left: 900px;
+    top: 650px;
+}
+
+#discount {
+    position: absolute;
+    left: 367px;
+    top: 10px;
+    color: #FF0000;
+    z-index: 1;
+}
+
+#shoes-img {
     position: absolute;
     width: 400px;
     height: 400px;
@@ -432,36 +229,34 @@ header {
     object-fit: contain;
 }
 
-#ultimashow h3 {
+#title {
     position: absolute;
     left: 10px;
     top: 408px;
     font-size: 24px;
 }
 
-#ultimashow-discount {
-    position: absolute;
-    left: 367px;
-    top: 10px;
-    color: #FF0000;
-    z-index: 1;
-}
-
-#ultimashow-class {
+#class {
     position: absolute;
     left: 10px;
     top: 465px;
     opacity: 50%;
 }
 
-#ultimashow-price-low {
+#price {
+    position: absolute;
+    left: 10px;
+    top: 527px;
+}
+
+#price-low {
     position: absolute;
     left: 10px;
     top: 527px;
     color: #FF0000;
 }
 
-#ultimashow-price-high {
+#price-high {
     position: absolute;
     left: 105px;
     top: 527px;
@@ -471,16 +266,14 @@ header {
 
 #brands-container {
     position: absolute;
-    width: 100%;
+    width: 1440px;
     height: 425px;
-    left: 0px;
     top: 3000px;
-    z-index: 0;
 }
 
 #brands-container h1 {
     position: absolute;
-    left: 41%;
+    left: 630px;
     top: 50px;
     font-size: 32px;
 }
@@ -489,7 +282,7 @@ header {
     position: absolute;
     width: 800px;
     height: 200px;
-    left: 21%;
+    left: 320px;
     top: 175px;
 }
 
@@ -522,19 +315,20 @@ header {
 
 footer {
     position: absolute;
-    width: 100%;
+    width: 1440px;
     height: 200px;
-    left: 0px;
     top: 3425px;
     background-color: #575757;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
 }
 
 #logo-bottom {
     position: absolute;
-    width: 36px;
-    height: 19px;
+    width: 200px;
+    height: 50px;
     left: 50px;
-    top: 50px;
+    top: 35px;
     color: #FFF;
 }
 
@@ -548,8 +342,8 @@ footer {
 
 .e-mail {
     position: absolute;
-    top: 8px;
-    left: 10px;
+    top: 50px;
+    left: 587px;
     font-size: 16px;
     opacity: 50%;
 }
@@ -559,13 +353,11 @@ footer {
     width: 380px;
     height: 35px;
     left: 576px;
-    top: 43px;
+    top: 40px;
     background-color: #FFF;
     border-radius: 10px;
-}
-
-#e-mail:hover {
-    cursor: text;
+    color: #575757;
+    font-size: 16px;
 }
 
 #instagram {
@@ -602,7 +394,7 @@ footer {
 
 #bar-bottom {
     position: absolute;
-    width: 93%;
+    width: 1340px;
     height: 0px;
     left: 50px;
     top: 100px;
