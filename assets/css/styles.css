@@ -10,6 +10,28 @@ body {
     margin: 0 auto;
 }
 
+#main {
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+a:link {
+    color: #FFF;
+}
+
+a:visited {
+    color: #FFF;
+  }
+
+a:hover {
+    color: black;
+    transition: 0.3s;
+}
+
 #nav-bar {
     position: fixed;
     width: 1440px;
@@ -30,11 +52,6 @@ body {
     left: 67px;
     top: 0px;
     opacity: 50%;
-}
-
-.nav:hover {
-    color: black;
-    transition: 0.3s;
 }
 
 #bar-top-home {
@@ -212,7 +229,7 @@ header {
     top: 650px;
 }
 
-#discount {
+.discount {
     position: absolute;
     left: 367px;
     top: 10px;
@@ -220,7 +237,7 @@ header {
     z-index: 1;
 }
 
-#shoes-img {
+.shoes-img {
     position: absolute;
     width: 400px;
     height: 400px;
@@ -229,34 +246,34 @@ header {
     object-fit: contain;
 }
 
-#title {
+.title {
     position: absolute;
     left: 10px;
     top: 408px;
     font-size: 24px;
 }
 
-#class {
+.class {
     position: absolute;
     left: 10px;
     top: 465px;
     opacity: 50%;
 }
 
-#price {
+.price {
     position: absolute;
     left: 10px;
     top: 527px;
 }
 
-#price-low {
+.price-low {
     position: absolute;
     left: 10px;
     top: 527px;
     color: #FF0000;
 }
 
-#price-high {
+.price-high {
     position: absolute;
     left: 105px;
     top: 527px;
