@@ -357,15 +357,7 @@ footer {
     color: #FFF;
 }
 
-.e-mail {
-    position: absolute;
-    top: 50px;
-    left: 587px;
-    font-size: 16px;
-    opacity: 50%;
-}
-
-#e-mail {
+#inpEmail {
     position: relative;
     width: 380px;
     height: 35px;
