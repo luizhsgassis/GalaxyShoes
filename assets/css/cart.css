@@ -14,12 +14,30 @@ body {
     position: relative;
 }
 
+a {
+    text-decoration: none;
+
+}
+
+a:link {
+    color: #FFF;
+}
+
+a:visited {
+    color: #FFF;
+  }
+
+a:hover {
+    color: #b4245f;
+    transition: 0.3s;
+}
+
 #nav-bar {
     position: fixed;
     width: 1440px;
     height: 50px;
-    background-color: #575757;
-    opacity: 70%;
+    background-color: #401252;
+    opacity: 90%;
     font-size: 16px;
     color: #FFF;
     z-index: 5;
@@ -31,19 +49,14 @@ body {
     height: 50px;
     left: 67px;
     top: 0px;
-    opacity: 50%;
-}
-
-.nav:hover {
-    color: black;
-    transition: 0.3s;
+    opacity: 90%;
 }
 
 #bar-top-home {
     position: absolute;
     width: 44px;
     height: 4px;
-    background-color: #FF0000;
+    background-color: #b4245f;
     left: 564px;
     top: 35px;
 }
@@ -52,7 +65,7 @@ body {
     position: absolute;
     width: 24px;
     height: 4px;
-    background-color: #FF0000;
+    background-color: #b4245f;
     left: 1316px;
     top: 37px;
 }
@@ -99,6 +112,18 @@ body {
     cursor: pointer;
 }
 
+#cart {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 1316px;
+    top: 13px;
+}
+
+#cart:hover {
+    cursor: pointer;
+}
+
 #cart-container {
     position: absolute;
     width: 1440px;
@@ -120,7 +145,7 @@ body {
     height: 42px;
     left: 600px;
     top: 512px;
-    color: #B3B3B3;
+    color: #682383;
 }
 
 footer {
@@ -128,7 +153,10 @@ footer {
     width: 1440px;
     height: 200px;
     top: 824px;
-    background-color: #575757;
+    background-color: #401252;
+    opacity: 90%;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
 }
 
 #logo-bottom {
@@ -148,37 +176,19 @@ footer {
     color: #FFF;
 }
 
-.e-mail {
-    position: absolute;
-    top: 8px;
-    left: 10px;
-    font-size: 16px;
-    opacity: 50%;
-}
-
-#e-mail {
+#inpEmail {
     position: relative;
     width: 380px;
     height: 35px;
     left: 576px;
-    top: 43px;
+    top: 40px;
     background-color: #FFF;
     border-radius: 10px;
-}
-
-#e-mail:hover {
-    cursor: text;
+    color: #575757;
+    font-size: 16px;
 }
 
 #instagram {
-    position: absolute;
-    width: 32px;
-    height: 32px;
-    left: 1202px;
-    top: 45px;
-}
-
-#facebook {
     position: absolute;
     width: 32px;
     height: 32px;
@@ -186,7 +196,7 @@ footer {
     top: 45px;
 }
 
-#google-plus {
+#facebook {
     position: absolute;
     width: 32px;
     height: 32px;

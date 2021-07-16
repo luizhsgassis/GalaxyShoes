@@ -10,7 +10,7 @@
         <meta name="keywords" content="Tênis, esporte">
 
         <link rel="stylesheet" href="/assets/css/cart.css">
-        <link rel="shortcut icon" href="/assets/img/DiamondShoes_fav.jpg" type="image/x-icon">
+        <link rel="shortcut icon" href="/assets/img/GalaxyShoes-fav.png" type="image/x-icon">
         
         
     </head>
@@ -18,12 +18,28 @@
         <div id="main">
 
             <div id="nav-bar">
-                <div id="bar-top-cart"></div>
-                <img id="logo-top" src="/assets/img/DiamondShoes_logo.jpg" alt="Diamond-Shoes-logo">
-                <p id="home" class="nav">Home</p>
-                <p id="popular-products" class="nav">Popular Products</p>
-                <p id="black-friday" class="nav">Black Friday</p>
-                <img id="cart" src="/assets/img/shopping-cart(24px).png" alt="carrinho-de-compras">
+                <div id="bar-top-home"></div>
+
+                <a href="/index.html">
+                    <img id="logo-top" src="/assets/img/GalaxyShoes-logo.png" alt="galaxy-shoes-logo">
+                </a>
+
+                <a href="/index.html#header">
+                <p id="home">Home</p>
+                </a>
+
+                <a href="/index.html#popular-container">
+                <p id="popular-products">Popular Products</p>
+                </a>
+
+                <a href="/index.html#black-container">
+                <p id="black-friday">Black Friday</p>
+                </a>
+
+                <a href="/assets/pages/cart.html">
+                    <img id="cart" src="/assets/img/shopping-cart(24px).png" alt="carrinho-de-compras">
+                </a>
+
             </div>
 
             <section id="cart-container">
@@ -32,17 +48,25 @@
             </section>
 
             <footer>
-                <img id="logo-bottom" src="/assets/img/DiamondShoes_logo.jpg" alt="Diamond-Shoes-logo">
-                <p id="newsletter">Newsletter</p>
-                <div id="e-mail"><p class="e-mail">Your E-mail Address</p></div>
-                <div><img id="instagram" src="/assets/img/instagram_logo.png" alt="instagram-logo"></div>
-                <div><img id="facebook" src="/assets/img/facebook_logo.png" alt="facebook-logo"></div>
-                <div><img id="google-plus" src="/assets/img/googleplus_logo.png" alt="google-plus-logo"></div>
-                <div><img id="linkedin" src="/assets/img/linkedin_logo.png" alt="linkedin-logo"></div>
+                <img id="logo-bottom" src="/assets/img/GalaxyShoes-logo.png" alt="galaxy-shoes-logo">
+
+                <form onsubmit="addEmail()">
+                    <p id="newsletter">Newsletter</p>
+                    <input type="text" id="inpEmail" placeholder="Your E-mail Address"></input>
+                </form>
+
+                <div><img id="instagram" src="/assets/img/instagram-logo.png" alt="instagram-logo"></div>
+                <div><img id="facebook" src="/assets/img/facebook-logo.png" alt="facebook-logo"></div>
+                <div><img id="linkedin" src="/assets/img/linkedin-logo.png" alt="linkedin-logo"></div>
+
                 <div id="bar-bottom"></div>
+
                 <p id="copyright">© 2021 created by Luiz Assis</p>
 
             </footer>
+
         </div>
+
+        <script src="/assets/js/script.js"></script>
     </body>
 </html>
