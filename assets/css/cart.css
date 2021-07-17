@@ -52,24 +52,6 @@ a:hover {
     opacity: 90%;
 }
 
-#bar-top-home {
-    position: absolute;
-    width: 44px;
-    height: 4px;
-    background-color: #b4245f;
-    left: 564px;
-    top: 35px;
-}
-
-#bar-top-cart {
-    position: absolute;
-    width: 24px;
-    height: 4px;
-    background-color: #b4245f;
-    left: 1316px;
-    top: 37px;
-}
-
 #home {
     position: absolute;
     left: 564px;

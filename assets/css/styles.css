@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     width: 1440px;
     height: 3450px;
@@ -50,24 +54,6 @@ a:hover {
     left: 67px;
     top: 0px;
     opacity: 90%;
-}
-
-#bar-top-home {
-    position: absolute;
-    width: 44px;
-    height: 4px;
-    background-color: #b4245f;
-    left: 564px;
-    top: 35px;
-}
-
-#bar-top-cart {
-    position: absolute;
-    width: 24px;
-    height: 4px;
-    background-color: #b4245f;
-    left: 1316px;
-    top: 37px;
 }
 
 #home {
@@ -153,6 +139,11 @@ header {
     height: 600px;
     border: 3px solid #682383;
     border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.1);
 }
 
 #pegasus {
@@ -303,6 +294,14 @@ header {
     height: 200px;
     left: 320px;
     top: 175px;
+}
+
+.brand-card {
+    transition: transform 0.2s;
+}
+
+.brand-card:hover {
+    transform: scale(1.5);
 }
 
 #adidas {
