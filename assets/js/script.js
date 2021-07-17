@@ -24,9 +24,6 @@ function addEmail() {
     if (value != "") {
     alert("Obrigado por cadastrar seu e-mail :)\nFique ligado nas promoções exclusivas do site!");
     localStorage.setItem(key, value);
-    location.href = "/index.html";
-    } else {
-        alert("Por favor, preencha o campo corretamente");
-        location.href = "#footer";
+    window.scrollTo(0, 0);
     };
 };
